@@ -1,0 +1,15 @@
+@import "./variable.scss";
+
+.carousel .carousel .slide {
+  background-color: $color-secondary;
+}
+.carousel .slide .legend {
+  background: $color-secondary;
+  color: $color-primary;
+}
+/*.carousel .control-next.control-arrow:before,
+.carousel .control-prev.control-arrow:before {
+  border-left: 10px solid $color-primary;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}*/

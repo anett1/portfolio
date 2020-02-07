@@ -1,0 +1,54 @@
+@import "./variable.scss";
+
+.FrontEndMyWork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: $main-spacing;
+  width: 100%;
+  border: 1px solid $color-secondary;
+  @media screen and (min-width: map-get($breakpoints, sm)) {
+    width: 40%;
+  }
+  @media screen and (min-width: map-get($breakpoints, md)) {
+    width: 30%;
+  }
+}
+.FrontEndMyWork .FrontEndMyWorkImg {
+  width: 100%;
+  min-height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.FrontEndMyWork .FrontEndMyWorkImg img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.FrontEndMyWork h3 {
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.FrontEndMyWork p {
+  padding-bottom: 50px;
+}
+
+.FrontEndMyWork a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: $main-spacing/4 0;
+  margin-top: 5px;
+  background-color: $color-secondary;
+  transition: 0.5;
+  cursor: pointer;
+}
+.FrontEndMyWork a:hover {
+  background-color: darken($color-secondary, 5);
+}

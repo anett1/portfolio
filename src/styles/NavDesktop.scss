@@ -1,0 +1,27 @@
+@import "./variable.scss";
+
+.NavDesktop {
+  flex-basis: 100%;
+  display: flex;
+  padding: $main-spacing;
+}
+
+.NavDesktop .NavContentDesktop {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.NavDesktop .NavContentDesktop ul {
+  display: flex;
+  list-style: none;
+}
+.NavDesktop .NavContentDesktop li {
+  padding-left: $main-spacing;
+}
+.NavDesktop .NavContentDesktop a {
+  display: block;
+  color: $color-primary;
+}
+.NavDesktop .NavContentDesktop a.active {
+  font-weight: 700;
+}

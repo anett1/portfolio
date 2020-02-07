@@ -1,0 +1,26 @@
+@import "./variable.scss";
+
+div.app {
+  max-width: $max-width;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+div.app header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: $main-spacing * 4;
+}
+div.app nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  z-index: 100;
+}

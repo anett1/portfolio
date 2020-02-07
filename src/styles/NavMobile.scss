@@ -1,0 +1,39 @@
+@import "./variable.scss";
+
+.NavMobile {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+div.app nav .NavMobile .burger {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  line-height: 50px;
+  color: $color-primary;
+  font-size: 2rem;
+}
+
+div.app nav .NavMobile .burger:hover {
+  cursor: pointer;
+}
+div.app nav .NavMobile .navContentMobile {
+  padding: $main-spacing;
+  background-color: $color-secondary;
+}
+
+div.app nav .NavMobile ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-top: $main-spacing/2;
+}
+div.app nav .NavMobile li {
+  padding: $main-spacing/2 0 $main-spacing/2 0;
+  border-bottom: 1px solid darken($color: $color-secondary, $amount: 5);
+}
+div.app nav .NavMobile a {
+  display: block;
+  color: $color-primary;
+}
