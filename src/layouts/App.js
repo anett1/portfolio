@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import Nav from "./Nav";
 import Header from "./Header";
+import Description from "./Description";
 import "../styles/App.scss";
 
 class App extends Component {
@@ -15,8 +16,9 @@ class App extends Component {
           <header>
             <Header />
           </header>
-          <section></section>
-          <footer></footer>
+          <section>
+            <Description />
+          </section>
         </div>
       </Router>
     );

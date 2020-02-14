@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import FrontEndMyWork from "../components/FrontEndMyWork";
 
 import img1 from "../imagesFrontEnd/1.png";
@@ -22,7 +22,7 @@ const data = [
     title: "przelicznik walut",
     technology: "react, css",
     adressView: "https://anett1.github.io/currencyConverter-React",
-    adressCode: "https://github.com/anett1/currencyConverter-React"
+    adressCode: "https://anett1.github.io/currencyConverter-React"
   },
   {
     id: 3,
@@ -51,11 +51,7 @@ const data = [
 ];
 
 const FrontEndHeader = () => {
-  return (
-    <>
-      <FrontEndMyWork data={data} />
-    </>
-  );
+  return <FrontEndMyWork data={data} />;
 };
 
 export default FrontEndHeader;

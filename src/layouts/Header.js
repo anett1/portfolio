@@ -4,7 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import HomeHeader from "../headerPages/HomeHeader";
 import DTPdesignHeader from "../headerPages/DTPdesignHeader";
 import FrontEndHeader from "../headerPages/FrontEndHeader";
-import ErrorPage from "../headerPages/ErrorPage";
+import ErrorPage from "../components/ErrorPage";
 
 const Header = () => {
   return (

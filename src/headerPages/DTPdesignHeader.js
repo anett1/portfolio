@@ -18,39 +18,39 @@ const DTPdesignHeader = () => {
     <div className="carousel">
       <Carousel>
         <div>
-          <img src={img1} />
+          <img src={img1} alt="" />
           <p className="legend">Legend 1</p>
         </div>
         <div>
-          <img src={img2} />
+          <img src={img2} alt="" />
           <p className="legend">Legend 2</p>
         </div>
         <div>
-          <img src={img3} />
+          <img src={img3} alt="" />
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src={img4} />
+          <img src={img4} alt="" />
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src={img5} />
+          <img src={img5} alt="" />
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src={img6} />
+          <img src={img6} alt="" />
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src={img7} />
+          <img src={img7} alt="" />
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src={img8} />
+          <img src={img8} alt="" />
           <p className="legend">Legend 3</p>
         </div>
         <div>
-          <img src={img9} />
+          <img src={img9} alt="" />
           <p className="legend">Legend 3</p>
         </div>
       </Carousel>

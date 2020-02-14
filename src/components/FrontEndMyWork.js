@@ -11,10 +11,10 @@ const FrontEndMyWork = props => {
       </div>
       <h3>{item.title}</h3>
       <p>{item.technology}</p>
-      <a href={item.adressCode} target="_blank">
+      <a href={item.adressCode} target="_blank" rel="noopener noreferrer">
         kod
       </a>
-      <a href={item.adressView} target="_blank">
+      <a href={item.adressView} target="_blank" rel="noopener noreferrer">
         wizualizacja
       </a>
     </div>
