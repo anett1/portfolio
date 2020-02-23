@@ -1,7 +1,7 @@
 import React from "react";
 
 const HomeDescription = () => {
-  return <p>xxxxx</p>;
+  return null;
 };
 
 export default HomeDescription;

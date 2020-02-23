@@ -19,39 +19,39 @@ const DTPdesignHeader = () => {
       <Carousel>
         <div>
           <img src={img1} alt="" />
-          <p className="legend">Legend 1</p>
+          <p className="legend">Okładki bloków</p>
         </div>
         <div>
           <img src={img2} alt="" />
-          <p className="legend">Legend 2</p>
+          <p className="legend">Raporty roczne</p>
         </div>
         <div>
           <img src={img3} alt="" />
-          <p className="legend">Legend 3</p>
+          <p className="legend">Plakaty</p>
         </div>
         <div>
           <img src={img4} alt="" />
-          <p className="legend">Legend 3</p>
+          <p className="legend">Kalendarze</p>
         </div>
         <div>
           <img src={img5} alt="" />
-          <p className="legend">Legend 3</p>
+          <p className="legend">Planery</p>
         </div>
         <div>
           <img src={img6} alt="" />
-          <p className="legend">Legend 3</p>
+          <p className="legend">Katalogi reklamowe</p>
         </div>
         <div>
           <img src={img7} alt="" />
-          <p className="legend">Legend 3</p>
+          <p className="legend">Katalogi reklamowe</p>
         </div>
         <div>
           <img src={img8} alt="" />
-          <p className="legend">Legend 3</p>
+          <p className="legend">Ulotki, strony reklamowe</p>
         </div>
         <div>
           <img src={img9} alt="" />
-          <p className="legend">Legend 3</p>
+          <p className="legend">Książki</p>
         </div>
       </Carousel>
     </div>

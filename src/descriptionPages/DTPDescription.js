@@ -3,7 +3,7 @@ import React from "react";
 const DTPDescription = () => {
   return (
     <div style={{ padding: 30, lineHeight: "180%" }}>
-      <h3>KILKA SŁÓW O MNIE</h3>
+      <h2 style={{ borderBottom: "1px solid #eb473e", color: "#eb473e"}}>KILKA SŁÓW O MNIE</h2>
       <p>
         Od ponad 10 lat zajmuję się tematyką{" "}
         <strong>desktop publishing DTP.</strong> Projektuję książki, broszury,

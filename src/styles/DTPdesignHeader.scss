@@ -1,4 +1,8 @@
 @import "./variable.scss";
+.carousel{
+  position: relative;
+  animation: appear 1s ease;
+}
 
 .carousel .carousel .slide {
   background-color: $color-secondary;
@@ -6,6 +10,13 @@
 .carousel .slide .legend {
   background: $color-secondary;
   color: $color-primary;
+}
+.carousel .thumb{
+  width: 25%;
+}
+
+.carousel .thumb.selected, .carousel .thumb:hover {
+  border: 2px solid $color-secondary;
 }
 /*.carousel .control-next.control-arrow:before,
 .carousel .control-prev.control-arrow:before {

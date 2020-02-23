@@ -1,0 +1,109 @@
+@import "./variable.scss";
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap&subset=latin-ext');
+
+.HomeHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    animation: appear 1s ease;
+
+    .Slogan{
+        width: 100%;
+        @media screen and (min-width: map-get($breakpoints, sm)) {
+            width: 50%;
+          }
+
+        border-bottom: 1px solid $color-extra;
+        padding: $main-spacing;
+
+        h1{
+            font-family: 'Montserrat';
+            font-weight: 900;
+            font-size: 5rem;
+            @media screen and (min-width: map-get($breakpoints, sm)) {
+                font-size: 6rem;
+              }
+            line-height: 95%;
+            color: $color-extra;
+            
+        }
+    }
+    .AboutMe{
+        width: 100%;
+        @media screen and (min-width: map-get($breakpoints, sm)) {
+            width: 50%;
+          }
+        background: $color-secondary;
+        padding: $main-spacing*2 $main-spacing;;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        .photo{
+          width: 120px;
+          height: 120px;
+          border: 3px solid white;
+          border-radius: 50%;
+          position: relative;
+          overflow: hidden;
+          margin-bottom: $main-spacing;
+          img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .description{
+          padding: 0 $main-spacing*4;
+          line-height: 120%;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          p{
+            width: 100%;
+          }
+          .contact{
+            width: 50%;
+          }
+          .buttonCV{
+            width: 50%;
+            text-align: center;
+
+            a{
+              display: block;
+              width: 60%;
+              padding: 5px;
+              background: $color-secondary;
+              border: 1px solid $color-extra;
+              color: $color-extra;
+              cursor: pointer;
+              transition: .5s;
+
+              &:hover{
+                background: $color-extra;
+                color: white;
+
+              }
+            }
+          
+
+          }
+        }
+    }
+    
+
+    
+   
+
+}
+
+
+

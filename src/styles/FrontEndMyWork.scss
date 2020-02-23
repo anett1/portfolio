@@ -8,12 +8,15 @@
   margin-top: $main-spacing;
   width: 100%;
   border: 1px solid $color-secondary;
+  box-shadow: 0 10px 10px -13px $color-primary;
   @media screen and (min-width: map-get($breakpoints, sm)) {
     width: 40%;
   }
   @media screen and (min-width: map-get($breakpoints, md)) {
     width: 30%;
   }
+  position: relative;
+  animation: appear 1s ease;
 }
 .FrontEndMyWork .FrontEndMyWorkImg {
   width: 100%;
