@@ -55,7 +55,7 @@ class FrontEndMyWork extends React.Component {
   componentDidMount() {
     const boxes = [...document.querySelectorAll(".front-end-my-work")];
     boxes.map((box, index) => {
-      box.style.animation
+      return box.style.animation
         ? (box.style.animation = "")
         : (box.style.animation = `navMYWorkFade .5s ease both ${
             index / 7 + 0.3

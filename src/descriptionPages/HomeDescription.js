@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../components/Button";
-import aneta from "../assets/homeImage/aneta2.JPG";
+import aneta from "../assets/homeImage/aneta2.jpg";
 import styled from "styled-components";
 
 const Wrapper = styled.div`

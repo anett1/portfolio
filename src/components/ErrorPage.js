@@ -1,7 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
 const ErrorPage = () => {
-  return "error";
+  return (
+    <>
+      <p>ta strona nie istnieje</p>
+    </>
+  );
 };
 
 export default ErrorPage;

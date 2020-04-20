@@ -28,7 +28,7 @@ class Nav extends Component {
 
     const ul = [...document.querySelectorAll(".navigation li")];
     ul.map((li, index) => {
-      li.style.animation
+      return li.style.animation
         ? (li.style.animation = "")
         : (li.style.animation = `navLinkFade .5s ease both ${
             index / 7 + 0.3

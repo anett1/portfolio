@@ -75,7 +75,7 @@ const list = [
 ];
 
 const DTPDescription = () => {
-  const mySkills = list.map((item) => <Li>{item}</Li>);
+  const mySkills = list.map((item) => <Li key={item}>{item}</Li>);
   return (
     <Wrapper>
       <Content>

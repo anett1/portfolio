@@ -79,7 +79,7 @@ const list = [
 ];
 
 const FrontEndDescription = () => {
-  const mySkills = list.map((item) => <Li>{item}</Li>);
+  const mySkills = list.map((item) => <Li key={item}>{item}</Li>);
 
   return (
     <Wrapper>
