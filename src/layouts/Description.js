@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import { Route, Switch } from "react-router-dom";
 import HomeDescription from "../descriptionPages/HomeDescription";
 import DTPDescription from "../descriptionPages/DTPDescription";
 import FrontEndDescription from "../descriptionPages/FrontEndDescription";
 import ErrorPage from "../components/ErrorPage";
 
-const Header = () => {
+const Description = () => {
   return (
     <>
       <Switch>
@@ -18,4 +18,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Description;

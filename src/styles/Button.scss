@@ -1,0 +1,33 @@
+@import "./variable.scss";
+
+.button a {
+  display: block;
+  color: #72a0b8;
+  font-family: $font-family-high;
+  letter-spacing: 1px;
+  width: 120px;
+  height: 40px;
+  position: relative;
+  line-height: 40px;
+  text-align: center;
+
+  & svg,
+  rect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+  }
+  & rect {
+    stroke: #72a0b8;
+    stroke-width: 3;
+    transition: 1s;
+    stroke-dasharray: 120, 40;
+  }
+  &:hover rect {
+    stroke-dasharray: 40, 120;
+    stroke-dashoffset: 200;
+  }
+}

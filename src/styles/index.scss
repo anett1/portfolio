@@ -10,17 +10,16 @@ html {
   font-size: $small-font-size;
   color: $color-primary;
 
-  @media screen and (min-width: map-get($breakpoints, xs)) {
+  @media screen and (min-width: map-get($breakpoints, sm)) {
     font-size: $base-font-size;
   }
 }
 
 strong {
-  font-size: 700;
+  font-weight: 700;
 }
 h1 {
-  font-size: 1.5rem;
-  
+  font-size: 1.3rem;
 }
 
 h2 {
@@ -32,10 +31,11 @@ h3 {
   margin-bottom: $main-spacing/2;
 }
 p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-bottom: $main-spacing/2;
 }
 a {
   text-decoration: none;
   color: $color-primary;
+  font-size: 1.2rem;
 }

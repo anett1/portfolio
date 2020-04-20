@@ -1,0 +1,59 @@
+@import "./variable.scss";
+
+.carousel {
+  animation: CarouselFade 0.5s ease;
+}
+
+.carousel .slide {
+  background-color: transparent;
+}
+.carousel .slide .legend {
+  display: none;
+  background: white;
+  color: $color-primary;
+}
+.carousel .thumb {
+  width: 20%;
+  border: 2px solid white;
+}
+
+.carousel .thumb:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+.carousel .thumb.selected {
+  border: 2px solid rgb(207, 207, 207);
+}
+.carousel .control-next.control-arrow:hover,
+.carousel .control-prev.control-arrow:hover {
+  background: transparent;
+  //top: 40%;
+  //bottom: 40%;
+}
+.carousel .control-next.control-arrow:before {
+  color: $color-primary;
+  border: none;
+  content: "❯";
+}
+.carousel .control-prev.control-arrow:before {
+  color: $color-primary;
+  border: none;
+  content: "❮";
+}
+
+/*.carousel .control-next.control-arrow:before,
+.carousel .control-prev.control-arrow:before {
+  content: "a";
+  border-left: 10px solid $color-primary;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}*/
+@keyframes CarouselFade {
+  from {
+    opacity: 0;
+    transform: translateX((50px));
+  }
+  to {
+    opacity: 1;
+    transform: translateX((0px));
+  }
+}

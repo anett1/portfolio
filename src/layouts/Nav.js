@@ -1,43 +1,63 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import NavMobile from "../components/NavMobile";
-import NavDesktop from "../components/NavDesktop";
 import "../styles/Nav.scss";
 
 const list = [
   { name: "O mnie", path: "/", exact: true },
   { name: "DTP design", path: "/DTPdesign" },
-  { name: "Front-End", path: "/FrontEnd" }
+  { name: "Front-End", path: "/FrontEnd" },
 ];
 
-const menu = list.map(item => (
+const menu = list.map((item) => (
   <li key={item.name}>
     <NavLink to={item.path} exact={item.exact ? item.exact : false}>
       {item.name}
     </NavLink>
   </li>
 ));
-const viewPort = window.matchMedia(`screen and ( min-width: 700px)`);
 
 class Nav extends Component {
   state = {
-    isDesktop: !viewPort.matches
+    isDesktop: false,
+  };
+
+  handleIsDesktop = () => {
+    this.setState({
+      isDesktop: !this.state.isDesktop,
+    });
+
+    const ul = [...document.querySelectorAll(".navigation li")];
+    ul.map((li, index) => {
+      li.style.animation
+        ? (li.style.animation = "")
+        : (li.style.animation = `navLinkFade .5s ease both ${
+            index / 7 + 0.3
+          }s `);
+    });
   };
 
   render() {
-    viewPort.addListener(isDesktop => {
-      this.setState({
-        isDesktop: !isDesktop.matches
-      });
-    });
     return (
-      <>
-        {this.state.isDesktop ? (
-          <NavMobile menu={menu} />
-        ) : (
-          <NavDesktop menu={menu} />
-        )}
-      </>
+      <nav className="nav-main">
+        <div className="my-name">
+          <h4>Aneta Jagła</h4>
+        </div>
+        <ul className={`navigation ${this.state.isDesktop ? "active" : ""}`}>
+          {menu}
+        </ul>
+
+        <div className="burger" onClick={this.handleIsDesktop}>
+          <div
+            className={`line1 ${this.state.isDesktop ? "toggle" : ""}`}
+          ></div>
+          <div
+            className={`line2 ${this.state.isDesktop ? "toggle" : ""}`}
+          ></div>
+          <div
+            className={`line3 ${this.state.isDesktop ? "toggle" : ""}`}
+          ></div>
+        </div>
+      </nav>
     );
   }
 }
