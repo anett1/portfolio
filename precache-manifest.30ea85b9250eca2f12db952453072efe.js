@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9391fd3a5e07cf2f216940f2f818871",
+    "revision": "c09a410b44536cdc0f8f51e9b30a112a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "3a9d9244fcfaab8f264a",
+    "revision": "0b6b9b100b684d5de3b5",
     "url": "/portfolio/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "0efa9afd820f064f6f1e",
-    "url": "/portfolio/static/css/main.991b13c9.chunk.css"
+    "revision": "5144849f4fc194c8c8d7",
+    "url": "/portfolio/static/css/main.bde345bf.chunk.css"
   },
   {
-    "revision": "3a9d9244fcfaab8f264a",
-    "url": "/portfolio/static/js/2.eecd8fbd.chunk.js"
+    "revision": "0b6b9b100b684d5de3b5",
+    "url": "/portfolio/static/js/2.cc497b66.chunk.js"
   },
   {
     "revision": "08aea12fbc3fa2d504dcc35fed40ae63",
-    "url": "/portfolio/static/js/2.eecd8fbd.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.cc497b66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0efa9afd820f064f6f1e",
-    "url": "/portfolio/static/js/main.c1368912.chunk.js"
+    "revision": "5144849f4fc194c8c8d7",
+    "url": "/portfolio/static/js/main.809e5a9e.chunk.js"
   },
   {
     "revision": "debb28456858994a1826",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/aneta2.857a1615.jpg"
   },
   {
-    "revision": "65c6b4bfc592e30cc85b89fe7bdec56e",
-    "url": "/portfolio/static/media/cv.65c6b4bf.pdf"
+    "revision": "a7859dc9f118bee191eb1cc349229269",
+    "url": "/portfolio/static/media/cvAnetaJagla.a7859dc9.pdf"
   },
   {
     "revision": "76d007f3fd68ca972faf5abc97b23b3d",
