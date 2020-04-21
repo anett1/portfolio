@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "../assets/cvAnetaJagla.pdf";
+import cv from "https://anett1.github.io/portfolio/portfolio/static/media/cv.65c6b4bf.pdf";
 import "../styles/Button.scss";
 
 const Button = ({ children }) => {
