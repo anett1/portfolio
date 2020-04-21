@@ -20,7 +20,7 @@ class FrontEndMyWork extends React.Component {
         title: "przelicznik walut",
         technology: "react, css",
         adressView: "https://anett1.github.io/currencyConverter-React",
-        adressCode: "https://anett1.github.io/currencyConverter-React",
+        adressCode: "https://github.com/anett1/currencyConverter-React",
       },
       {
         id: 3,
