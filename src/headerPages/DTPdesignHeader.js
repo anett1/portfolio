@@ -13,6 +13,7 @@ import img6 from "../assets/6.png";
 import img7 from "../assets/7.png";
 import img8 from "../assets/8.png";
 import img9 from "../assets/9.png";
+import img10 from "../assets/10.png";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -76,6 +77,10 @@ const DTPdesignHeader = () => {
           <div>
             <img src={img9} alt="" />
             <p className="legend">Książki</p>
+          </div>
+          <div>
+            <img src={img10} alt="" />
+            <p className="legend">Bilbord, ulotka</p>
           </div>
         </Carousel>
       </Content>
