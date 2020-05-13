@@ -2,7 +2,7 @@
 
 .button a {
   display: block;
-  color: #72a0b8;
+  color: #ff5851;
   font-family: $font-family-high;
   letter-spacing: 1px;
   width: 120px;
@@ -21,7 +21,7 @@
     fill: transparent;
   }
   & rect {
-    stroke: #72a0b8;
+    stroke: #ff5851;
     stroke-width: 3;
     transition: 1s;
     stroke-dasharray: 120, 40;
