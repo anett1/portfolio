@@ -1,5 +1,6 @@
 import React from "react";
 import ElasticCarousel from "../components/ElasticCarousel";
+import FrontEndMyWork from "../components/FrontEndMyWork";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -64,6 +65,20 @@ const Li = styled.li`
   }
 `;
 
+const MyProgets = styled.div`
+  width: 100%;
+  max-width: 1399px;
+  padding: 60px 0;
+  @media screen and (max-width: 500px) {
+    padding: 40px 20px;
+  }
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+`;
+
 const list = [
   "JavaScript ES6+",
   "React",
@@ -85,6 +100,11 @@ const FrontEndDescription = () => {
     <Wrapper>
       <Content>
         <ElasticCarousel />
+        <MyProgets>
+          <H2>MOJE PROJEKTY</H2>
+          <FrontEndMyWork />
+        </MyProgets>
+
         <AboutMe>
           <H2>KILKA SŁÓW O MNIE</H2>
           <p style={{ lineHeight: "150%" }}>
