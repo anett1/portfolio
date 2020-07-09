@@ -38,34 +38,41 @@ class FrontEndMyWork extends React.Component {
       },
       {
         id: 5,
+        title: "wyszukiwarka filmów",
+        technology: "html, css, java script (moduły, deklaracja klasy",
+        adressView: "https://anett1.github.io/tvMaze",
+        adressCode: "https://github.com/anett1/tvMaze",
+      },
+      {
+        id: 6,
         title: "quiz",
         technology: "html, scss, java script",
         adressView: "https://anett1.github.io/Quiz",
         adressCode: "https://github.com/anett1/Quiz",
       },
       {
-        id: 6,
+        id: 7,
         title: "kalendarze portfolio",
         technology: "html, css, bootstrap",
         adressView: "https://anett1.github.io/kalendarze-portfolio",
         adressCode: "https://github.com/anett1/kalendarze-portfolio",
       },
       {
-        id: 7,
+        id: 8,
         title: "gra w karty",
         technology: "html, css, java script",
         adressView: "https://anett1.github.io/card-game-3",
         adressCode: "https://github.com/anett1/card-game-3",
       },
-      {
-        id: 8,
-        title: "kamien, papier, nożyczki",
-        technology: "html, css, java script",
-        adressView: "https://anett1.github.io/game_carts_wer_02",
-        adressCode: "https://github.com/anett1/game_carts_wer_02",
-      },
     ],
   };
+
+  /*id: 7,
+        title: "gra w karty",
+        technology: "html, css, java script",
+        adressView: "https://anett1.github.io/card-game-3",
+        adressCode: "https://github.com/anett1/card-game-3",*/
+
   componentDidMount() {
     const boxes = [...document.querySelectorAll(".front-end-my-work")];
     boxes.map((box, index) => {
